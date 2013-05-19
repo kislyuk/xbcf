@@ -2,7 +2,7 @@
 
 # XBCF: eXtensible Block Compression Format
 
-XBCF is a container format designed for indexed block compression on Amazon S3. It's designed to support the following features:
+XBCF is a container format designed for indexed block compression on Amazon S3 or similar distributed storage systems with high seek latencies. It supports the following features:
 * Configurable compression codec
 * Configurable block encryption codec
 * Seeking support, with granularity equal to the compression block size (1MB by default)
