@@ -28,7 +28,6 @@ pip install snappy lz4 numpy boto
 * Number of blocks (unsigned int; 8 bytes)
 * Reserved (16 bytes) (padding to 32 bytes)
 * Block start offset table (8 bytes * (Number of blocks))
-
-If block size is 0:
-    * Block size table (uncompressed sizes) (8 bytes * (Number of blocks))
+* If block size is 0:
+  * Block size table (uncompressed sizes) (8 bytes * (Number of blocks))
 * Blocks
